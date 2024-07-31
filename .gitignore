@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+/socket-io-server/node_modules
 .pnp.js
 
 # testing
