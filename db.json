@@ -41,12 +41,12 @@
       "item_name": "Antique Vase",
       "description": "An ancient vase from the Ming dynasty.",
       "start_price": 50000,
-      "current_price": 16,
+      "current_price": 113,
       "start_time": "2024-07-20T10:00:00Z",
       "end_time": "2024-08-10T01:19:00Z",
       "created_by": "Antique Collector's Association",
       "created_date": "2024-07-18T09:00:00Z",
-      "updated_date": "2024-08-01T06:38:35.383Z"
+      "updated_date": "2024-08-01T06:41:40.665Z"
     },
     {
       "id": "2",
@@ -975,6 +975,90 @@
       "auction_id": "1",
       "bid_amount": 16,
       "bid_time": "2024-08-01T06:38:35.403Z",
+      "user_id": 1
+    },
+    {
+      "id": "19a4",
+      "auction_id": "1",
+      "bid_amount": 14,
+      "bid_time": "2024-08-01T06:39:36.700Z",
+      "user_id": 1
+    },
+    {
+      "id": "8457",
+      "auction_id": "1",
+      "bid_amount": 13,
+      "bid_time": "2024-08-01T06:39:42.792Z",
+      "user_id": 1
+    },
+    {
+      "id": "81fd",
+      "auction_id": "1",
+      "bid_amount": 15,
+      "bid_time": "2024-08-01T06:39:50.975Z",
+      "user_id": 1
+    },
+    {
+      "id": "1776",
+      "auction_id": "1",
+      "bid_amount": 13,
+      "bid_time": "2024-08-01T06:39:54.322Z",
+      "user_id": 1
+    },
+    {
+      "id": "c05c",
+      "auction_id": "1",
+      "bid_amount": 14,
+      "bid_time": "2024-08-01T06:39:55.759Z",
+      "user_id": 1
+    },
+    {
+      "id": "dfbc",
+      "auction_id": "1",
+      "bid_amount": 15,
+      "bid_time": "2024-08-01T06:40:05.620Z",
+      "user_id": 1
+    },
+    {
+      "id": "4f06",
+      "auction_id": "1",
+      "bid_amount": 16,
+      "bid_time": "2024-08-01T06:40:07.777Z",
+      "user_id": 1
+    },
+    {
+      "id": "09bf",
+      "auction_id": "1",
+      "bid_amount": 13,
+      "bid_time": "2024-08-01T06:40:11.507Z",
+      "user_id": 1
+    },
+    {
+      "id": "59c8",
+      "auction_id": "1",
+      "bid_amount": 15,
+      "bid_time": "2024-08-01T06:40:26.274Z",
+      "user_id": 1
+    },
+    {
+      "id": "70ae",
+      "auction_id": "1",
+      "bid_amount": 13,
+      "bid_time": "2024-08-01T06:40:30.556Z",
+      "user_id": 1
+    },
+    {
+      "id": "ca4f",
+      "auction_id": "1",
+      "bid_amount": 15,
+      "bid_time": "2024-08-01T06:41:34.980Z",
+      "user_id": 1
+    },
+    {
+      "id": "dd4f",
+      "auction_id": "1",
+      "bid_amount": 113,
+      "bid_time": "2024-08-01T06:41:40.698Z",
       "user_id": 1
     }
   ]

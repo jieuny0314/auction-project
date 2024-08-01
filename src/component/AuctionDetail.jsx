@@ -82,7 +82,7 @@ const AuctionDetail = ({ auction, imageUrl }) => {
           </div>
           <BidInput
             auctionId={auction.id}
-            currentPrice={auction?.current_price}
+            currentPrice={parseFloat(auction?.current_price)}
             endTime={auction?.end_time}
           />
         </div>
