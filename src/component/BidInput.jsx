@@ -1,18 +1,25 @@
 import React, { useState } from "react";
 import io from "socket.io-client";
 import axios from "axios";
+import useCountdown from "../hook/useCountdown";
 
 const socket = io("http://localhost:5000");
 
-const BidInput = ({ auctionId, currentPrice }) => {
+const BidInput = ({ auctionId, currentPrice, endTime }) => {
   const [bidAmount, setBidAmount] = useState("");
+
+  const remainingTime = useCountdown(endTime);
+  const isAuctionEnded = remainingTime <= 0;
 
   const handleBidSubmit = async (event) => {
     event.preventDefault();
 
     const amount = parseFloat(bidAmount);
-    if (isNaN(amount) || amount <= 0 || amount <= currentPrice) {
+    if (isNaN(amount) || amount <= 0) {
       alert("유효하지 않은 입찰가입니다.");
+      return;
+    } else if (amount <= currentPrice) {
+      alert("현재가보다 낮거나 같은 가격으로 입찰할 수 없습니다.");
       return;
     }
     try {
@@ -50,11 +57,17 @@ const BidInput = ({ auctionId, currentPrice }) => {
           onChange={(e) => setBidAmount(e.target.value)}
           required
           className="w-[50%] p-2 text-base border border-gray-300 rounded-md box-border ml-2"
+          disabled={isAuctionEnded}
         />
       </label>
       <button
         type="submit"
-        className="w-full mt-2 px-2 py-4 bg-green-500 text-white border-none rounded-md cursor-pointer text-base hover:bg-green-600"
+        className={`w-full mt-2 px-2 py-4 text-white border-none rounded-md cursor-pointer text-base ${
+          isAuctionEnded
+            ? "bg-gray-400 cursor-not-allowed"
+            : "bg-green-500 hover:bg-green-600"
+        }`}
+        disabled={isAuctionEnded}
       >
         입찰하기
       </button>
