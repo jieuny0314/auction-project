@@ -1,5 +1,4 @@
 import AuctionDetail from "../component/AuctionDetail";
-import BidInput from "../component/BidInput";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import apiData from "../api/apiData";

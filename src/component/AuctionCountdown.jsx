@@ -16,7 +16,7 @@ const AuctionCountdown = ({ endTime, type }) => {
       const timeLeft = calculateRemainingTime(endTime);
       setRemainingTime(timeLeft);
 
-      // 종료 시간이 지나면 타이머를 멈춘다
+      // 종료 시간이 지나면 타이머 정지
       if (timeLeft <= 0) {
         clearInterval(interval);
       }

@@ -1,6 +1,5 @@
 const express = require("express");
 const http = require("http");
-const socketIo = require("socket.io");
 const cors = require("cors"); // cors 패키지 import
 
 const app = express();
@@ -14,12 +13,11 @@ const io = require("socket.io")(server, {
 
 let currentPrice = 100; // 초기 입찰가 설정
 let updatedDate = new Date().toISOString();
-let currentId = "";
 
-// cors 미들웨어 적용
+// cors 에러 해결
 app.use(cors());
 
-// Socket.io 관련 처리는 그대로 유지
+// Socket.io
 io.on("connection", (socket) => {
   socket.on("startAuction", () => {
     window.alert("dd");

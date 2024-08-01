@@ -8,8 +8,8 @@ const AuctionDetail = ({ auction, imageUrl }) => {
     cors: { origin: "*" },
   });
 
-  const [currentPrice, setCurrentPrice] = useState(0); // 초기 입찰가
-  const [updatedDate, setUpdatedDate] = useState(""); // 초기 업데이트 날짜
+  const [currentPrice, setCurrentPrice] = useState(0);
+  const [updatedDate, setUpdatedDate] = useState("");
 
   useEffect(() => {
     setCurrentPrice(auction.current_price);
@@ -22,11 +22,9 @@ const AuctionDetail = ({ auction, imageUrl }) => {
     socket.on("priceUpdated", ({ currentPrice, updatedDate, id }) => {
       setCurrentPrice(currentPrice);
       setUpdatedDate(updatedDate);
-      console.log("detail page event");
     });
 
     return () => {
-      // 컴포넌트가 언마운트될 때 소켓 이벤트 리스너 제거
       socket.off("auctionStarted");
     };
   }, [auction.current_price]);

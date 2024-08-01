@@ -54,7 +54,7 @@
       "description": "A collection of first edition books.",
       "start_price": 100000,
       "current_price": 1236646147437,
-      "start_time": "2024-07-22T09:00:00Z",
+      "start_time": "2024-08-22T09:00:00Z",
       "end_time": "2024-07-27T17:00:00Z",
       "created_by": "Literature Enthusiasts Club",
       "created_date": "2024-07-19T10:00:00Z",
@@ -67,82 +67,106 @@
       "start_price": 80000,
       "current_price": 8000512,
       "start_time": "2024-07-21T12:00:00Z",
-      "end_time": "2024-07-26T16:00:00Z",
+      "end_time": "2024-09-19T16:00:00Z",
       "created_by": "Music Memorabilia Store",
       "created_date": "2024-07-17T14:30:00Z",
       "updated_date": "2024-07-24T02:29:00.698Z"
     },
     {
       "id": "4",
-      "item_name": "Vintage Guitar",
-      "description": "A rare guitar from the 1960s.",
-      "start_price": 80000,
-      "current_price": 8000512,
-      "start_time": "2024-07-21T12:00:00Z",
-      "end_time": "2024-07-26T16:00:00Z",
-      "created_by": "Music Memorabilia Store",
-      "created_date": "2024-07-17T14:30:00Z",
-      "updated_date": "2024-07-24T02:29:00.698Z"
+      "item_name": "Classic Vinyl Records",
+      "description": "A collection of rare vinyl records from the 70s.",
+      "start_price": 5000,
+      "current_price": 6500,
+      "start_time": "2024-07-22T10:00:00Z",
+      "end_time": "2024-07-27T15:00:00Z",
+      "created_by": "Retro Records Inc.",
+      "created_date": "2024-07-18T09:00:00Z",
+      "updated_date": "2024-07-24T03:00:00Z"
     },
     {
       "id": "5",
-      "item_name": "Vintage Guitar",
-      "description": "A rare guitar from the 1960s.",
-      "start_price": 80000,
-      "current_price": 8000512,
-      "start_time": "2024-07-21T12:00:00Z",
-      "end_time": "2024-07-26T16:00:00Z",
-      "created_by": "Music Memorabilia Store",
-      "created_date": "2024-07-17T14:30:00Z",
-      "updated_date": "2024-07-24T02:29:00.698Z"
+      "item_name": "Antique Pocket Watch",
+      "description": "A beautifully crafted pocket watch from the 19th century.",
+      "start_price": 12000,
+      "current_price": 12345667,
+      "start_time": "2024-10-01T11:00:00Z",
+      "end_time": "2024-07-28T17:00:00Z",
+      "created_by": "Timeless Treasures",
+      "created_date": "2024-07-19T10:30:00Z",
+      "updated_date": "2024-08-01T02:19:13.565Z"
     },
     {
       "id": "6",
-      "item_name": "Vintage Guitar",
-      "description": "A rare guitar from the 1960s.",
-      "start_price": 80000,
-      "current_price": 8000512,
-      "start_time": "2024-07-21T12:00:00Z",
-      "end_time": "2024-07-26T16:00:00Z",
-      "created_by": "Music Memorabilia Store",
-      "created_date": "2024-07-17T14:30:00Z",
-      "updated_date": "2024-07-24T02:29:00.698Z"
+      "item_name": "Vintage Typewriter",
+      "description": "An original vintage typewriter from the 1920s in working condition.",
+      "start_price": 3000,
+      "current_price": 3800,
+      "start_time": "2024-08-03T12:00:00Z",
+      "end_time": "2024-07-29T18:00:00Z",
+      "created_by": "Old School Collectibles",
+      "created_date": "2024-07-20T11:00:00Z",
+      "updated_date": "2024-07-24T05:30:00Z"
     },
     {
       "id": "7",
-      "item_name": "Vintage Guitar",
-      "description": "A rare guitar from the 1960s.",
-      "start_price": 80000,
-      "current_price": 8000512,
-      "start_time": "2024-07-21T12:00:00Z",
-      "end_time": "2024-07-26T16:00:00Z",
-      "created_by": "Music Memorabilia Store",
-      "created_date": "2024-07-17T14:30:00Z",
-      "updated_date": "2024-07-24T02:29:00.698Z"
+      "item_name": "Antique Jewelry Set",
+      "description": "A set of antique jewelry including a necklace and earrings.",
+      "start_price": 25000,
+      "current_price": 32000,
+      "start_time": "2024-08-11T14:00:00Z",
+      "end_time": "2024-07-30T20:00:00Z",
+      "created_by": "Elegant Jewels Ltd.",
+      "created_date": "2024-07-21T12:00:00Z",
+      "updated_date": "2024-07-24T06:45:00Z"
     },
     {
       "id": "8",
-      "item_name": "Vintage Guitar",
-      "description": "A rare guitar from the 1960s.",
-      "start_price": 80000,
-      "current_price": 8000512,
-      "start_time": "2024-07-21T12:00:00Z",
-      "end_time": "2024-07-26T16:00:00Z",
-      "created_by": "Music Memorabilia Store",
-      "created_date": "2024-07-17T14:30:00Z",
-      "updated_date": "2024-07-24T02:29:00.698Z"
+      "item_name": "Rare Comic Books",
+      "description": "A collection of rare comic books from the 1980s.",
+      "start_price": 8000,
+      "current_price": 9500,
+      "start_time": "2024-12-02T13:00:00Z",
+      "end_time": "2024-07-31T19:00:00Z",
+      "created_by": "Comic Collectors Hub",
+      "created_date": "2024-07-22T13:00:00Z",
+      "updated_date": "2024-07-24T07:00:00Z"
     },
     {
       "id": "9",
-      "item_name": "Vintage Guitar",
-      "description": "A rare guitar from the 1960s.",
-      "start_price": 80000,
-      "current_price": 8000512,
-      "start_time": "2024-07-21T12:00:00Z",
-      "end_time": "2024-07-26T16:00:00Z",
-      "created_by": "Music Memorabilia Store",
-      "created_date": "2024-07-17T14:30:00Z",
-      "updated_date": "2024-07-24T02:29:00.698Z"
+      "item_name": "Mid-Century Modern Chair",
+      "description": "A stylish mid-century modern chair in excellent condition.",
+      "start_price": 15000,
+      "current_price": 18000,
+      "start_time": "2024-08-01T15:00:00Z",
+      "end_time": "2024-08-01T21:00:00Z",
+      "created_by": "Design Classics",
+      "created_date": "2024-07-23T14:00:00Z",
+      "updated_date": "2024-07-24T08:30:00Z"
+    },
+    {
+      "id": "10",
+      "item_name": "Historical War Memorabilia",
+      "description": "A collection of memorabilia from major historical wars.",
+      "start_price": 20000,
+      "current_price": 25000,
+      "start_time": "2024-10-22T16:00:00Z",
+      "end_time": "2024-08-02T22:00:00Z",
+      "created_by": "War History Collectors",
+      "created_date": "2024-07-24T15:00:00Z",
+      "updated_date": "2024-07-24T09:45:00Z"
+    },
+    {
+      "id": "11",
+      "item_name": "Classic Motorcycle",
+      "description": "A vintage motorcycle from the 1960s, fully restored.",
+      "start_price": 40000,
+      "current_price": 47000,
+      "start_time": "2024-10-11T17:00:00Z",
+      "end_time": "2024-08-03T23:00:00Z",
+      "created_by": "Vintage Rides",
+      "created_date": "2024-07-25T16:00:00Z",
+      "updated_date": "2024-07-24T10:30:00Z"
     }
   ],
   "auctionImages": [
@@ -164,6 +188,62 @@
       "id": "3",
       "auction_id": 3,
       "image_url": "https://picsum.photos/id/1025/800/600",
+      "created_date": "2024-07-17T15:00:00Z",
+      "updated_date": "2024-07-17T15:00:00Z"
+    },
+    {
+      "id": "4",
+      "auction_id": 4,
+      "image_url": "https://picsum.photos/id/237/800/600",
+      "created_date": "2024-07-17T15:00:00Z",
+      "updated_date": "2024-07-17T15:00:00Z"
+    },
+    {
+      "id": "5",
+      "auction_id": 5,
+      "image_url": "https://picsum.photos/id/24/800/600",
+      "created_date": "2024-07-17T15:00:00Z",
+      "updated_date": "2024-07-17T15:00:00Z"
+    },
+    {
+      "id": "6",
+      "auction_id": 6,
+      "image_url": "https://picsum.photos/id/48/800/600",
+      "created_date": "2024-07-17T15:00:00Z",
+      "updated_date": "2024-07-17T15:00:00Z"
+    },
+    {
+      "id": "7",
+      "auction_id": 7,
+      "image_url": "https://picsum.photos/id/55/800/600",
+      "created_date": "2024-07-17T15:00:00Z",
+      "updated_date": "2024-07-17T15:00:00Z"
+    },
+    {
+      "id": "8",
+      "auction_id": 8,
+      "image_url": "https://picsum.photos/id/58/800/600",
+      "created_date": "2024-07-17T15:00:00Z",
+      "updated_date": "2024-07-17T15:00:00Z"
+    },
+    {
+      "id": "9",
+      "auction_id": 9,
+      "image_url": "https://picsum.photos/id/63/800/600",
+      "created_date": "2024-07-17T15:00:00Z",
+      "updated_date": "2024-07-17T15:00:00Z"
+    },
+    {
+      "id": "10",
+      "auction_id": 10,
+      "image_url": "https://picsum.photos/id/78/800/600",
+      "created_date": "2024-07-17T15:00:00Z",
+      "updated_date": "2024-07-17T15:00:00Z"
+    },
+    {
+      "id": "11",
+      "auction_id": 11,
+      "image_url": "https://picsum.photos/id/90/800/600",
       "created_date": "2024-07-17T15:00:00Z",
       "updated_date": "2024-07-17T15:00:00Z"
     }
@@ -860,6 +940,20 @@
       "auction_id": "1",
       "bid_amount": 11,
       "bid_time": "2024-08-01T01:49:04.679Z",
+      "user_id": 1
+    },
+    {
+      "id": "c867",
+      "auction_id": "5",
+      "bid_amount": 123456,
+      "bid_time": "2024-08-01T02:19:05.146Z",
+      "user_id": 1
+    },
+    {
+      "id": "804c",
+      "auction_id": "5",
+      "bid_amount": 12345667,
+      "bid_time": "2024-08-01T02:19:13.583Z",
       "user_id": 1
     }
   ]

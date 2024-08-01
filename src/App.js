@@ -16,7 +16,6 @@ function App() {
   );
 
   useEffect(() => {
-    // localStorage에서 로그인 상태를 가져옴
     const loggedInStatus = localStorage.getItem("isLoggedIn");
     if (loggedInStatus === "true") {
       setIsLoggedIn(true);
@@ -24,13 +23,11 @@ function App() {
   }, [isLoggedIn]);
 
   const handleLogin = () => {
-    // 로그인 성공 시 localStorage에 로그인 상태를 저장
     localStorage.setItem("isLoggedIn", "true");
     setIsLoggedIn(true);
   };
 
   const handleLogout = () => {
-    // 로그아웃 시 localStorage에서 로그인 상태를 제거
     localStorage.removeItem("isLoggedIn");
     setIsLoggedIn(false);
   };
@@ -39,10 +36,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          {/* <Route path="/" element={<ItemList />} /> */}
           <Route path="/detail/:id" element={<ItemDetail />} />
-          {/* <Route path="/login" element={<LoginPage />} /> */}
-
           <Route
             path="/"
             element={

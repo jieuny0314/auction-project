@@ -4,18 +4,8 @@ import axios from "axios";
 
 const socket = io("http://localhost:5000");
 
-const BidInput = ({ auctionId, currentPrice, endTime }) => {
+const BidInput = ({ auctionId, currentPrice }) => {
   const [bidAmount, setBidAmount] = useState("");
-
-  const calculateRemainingTime = (endTime) => {
-    const now = new Date().getTime();
-    const end = new Date(endTime).getTime();
-    return end - now;
-  };
-
-  const [remainingTime, setRemainingTime] = useState(
-    calculateRemainingTime(endTime)
-  );
 
   const handleBidSubmit = async (event) => {
     event.preventDefault();
