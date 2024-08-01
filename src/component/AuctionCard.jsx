@@ -67,6 +67,7 @@ const AuctionCard = ({
                 : current_price
                     .toString()
                     .replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+              {/* {currentPrice} */}
             </p>
             <p>원</p>
           </div>

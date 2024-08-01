@@ -4,8 +4,18 @@ import axios from "axios";
 
 const socket = io("http://localhost:5000");
 
-const BidInput = ({ auctionId, currentPrice }) => {
+const BidInput = ({ auctionId, currentPrice, endTime }) => {
   const [bidAmount, setBidAmount] = useState("");
+
+  const calculateRemainingTime = (endTime) => {
+    const now = new Date().getTime();
+    const end = new Date(endTime).getTime();
+    return end - now;
+  };
+
+  const [remainingTime, setRemainingTime] = useState(
+    calculateRemainingTime(endTime)
+  );
 
   const handleBidSubmit = async (event) => {
     event.preventDefault();
@@ -17,7 +27,6 @@ const BidInput = ({ auctionId, currentPrice }) => {
     }
     try {
       socket.emit("bidPriceChange", parseFloat(bidAmount), auctionId);
-
       setBidAmount("");
 
       await axios.patch(`http://localhost:3001/auctions/${auctionId}`, {

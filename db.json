@@ -41,24 +41,24 @@
       "item_name": "Antique Vase",
       "description": "An ancient vase from the Ming dynasty.",
       "start_price": 50000,
-      "current_price": 1,
+      "current_price": 11,
       "start_time": "2024-07-20T10:00:00Z",
       "end_time": "2024-08-10T01:19:00Z",
       "created_by": "Antique Collector's Association",
       "created_date": "2024-07-18T09:00:00Z",
-      "updated_date": "2024-07-31T07:02:41.683Z"
+      "updated_date": "2024-08-01T01:49:04.667Z"
     },
     {
       "id": "2",
       "item_name": "Rare Book Collection",
       "description": "A collection of first edition books.",
       "start_price": 100000,
-      "current_price": 1222222,
+      "current_price": 1236646147437,
       "start_time": "2024-07-22T09:00:00Z",
       "end_time": "2024-07-27T17:00:00Z",
       "created_by": "Literature Enthusiasts Club",
       "created_date": "2024-07-19T10:00:00Z",
-      "updated_date": "2024-07-31T05:38:52.082Z"
+      "updated_date": "2024-08-01T01:48:41.432Z"
     },
     {
       "id": "3",
@@ -73,7 +73,7 @@
       "updated_date": "2024-07-24T02:29:00.698Z"
     },
     {
-      "id": "3",
+      "id": "4",
       "item_name": "Vintage Guitar",
       "description": "A rare guitar from the 1960s.",
       "start_price": 80000,
@@ -85,7 +85,7 @@
       "updated_date": "2024-07-24T02:29:00.698Z"
     },
     {
-      "id": "3",
+      "id": "5",
       "item_name": "Vintage Guitar",
       "description": "A rare guitar from the 1960s.",
       "start_price": 80000,
@@ -97,7 +97,7 @@
       "updated_date": "2024-07-24T02:29:00.698Z"
     },
     {
-      "id": "3",
+      "id": "6",
       "item_name": "Vintage Guitar",
       "description": "A rare guitar from the 1960s.",
       "start_price": 80000,
@@ -109,7 +109,7 @@
       "updated_date": "2024-07-24T02:29:00.698Z"
     },
     {
-      "id": "3",
+      "id": "7",
       "item_name": "Vintage Guitar",
       "description": "A rare guitar from the 1960s.",
       "start_price": 80000,
@@ -121,7 +121,7 @@
       "updated_date": "2024-07-24T02:29:00.698Z"
     },
     {
-      "id": "3",
+      "id": "8",
       "item_name": "Vintage Guitar",
       "description": "A rare guitar from the 1960s.",
       "start_price": 80000,
@@ -133,7 +133,7 @@
       "updated_date": "2024-07-24T02:29:00.698Z"
     },
     {
-      "id": "3",
+      "id": "9",
       "item_name": "Vintage Guitar",
       "description": "A rare guitar from the 1960s.",
       "start_price": 80000,
@@ -482,6 +482,384 @@
       "auction_id": "1",
       "bid_amount": 6666666,
       "bid_time": "2024-07-31T07:02:41.696Z",
+      "user_id": 1
+    },
+    {
+      "id": "4e5f",
+      "auction_id": "1",
+      "bid_amount": 2,
+      "bid_time": "2024-07-31T23:45:16.249Z",
+      "user_id": 1
+    },
+    {
+      "id": "d74e",
+      "auction_id": "1",
+      "bid_amount": 3,
+      "bid_time": "2024-07-31T23:46:23.158Z",
+      "user_id": 1
+    },
+    {
+      "id": "aa26",
+      "auction_id": "1",
+      "bid_amount": 5,
+      "bid_time": "2024-07-31T23:53:02.524Z",
+      "user_id": 1
+    },
+    {
+      "id": "4a0d",
+      "auction_id": "1",
+      "bid_amount": 5,
+      "bid_time": "2024-07-31T23:55:40.768Z",
+      "user_id": 1
+    },
+    {
+      "id": "18b3",
+      "auction_id": "1",
+      "bid_amount": 5,
+      "bid_time": "2024-07-31T23:55:43.043Z",
+      "user_id": 1
+    },
+    {
+      "id": "ce2b",
+      "auction_id": "1",
+      "bid_amount": 6,
+      "bid_time": "2024-07-31T23:55:47.101Z",
+      "user_id": 1
+    },
+    {
+      "id": "fa78",
+      "auction_id": "1",
+      "bid_amount": 66,
+      "bid_time": "2024-07-31T23:57:27.399Z",
+      "user_id": 1
+    },
+    {
+      "id": "2059",
+      "auction_id": "1",
+      "bid_amount": 666,
+      "bid_time": "2024-07-31T23:58:02.220Z",
+      "user_id": 1
+    },
+    {
+      "id": "2cad",
+      "auction_id": "1",
+      "bid_amount": 44,
+      "bid_time": "2024-08-01T00:00:26.373Z",
+      "user_id": 1
+    },
+    {
+      "id": "60b2",
+      "auction_id": "1",
+      "bid_amount": 32,
+      "bid_time": "2024-08-01T00:00:38.953Z",
+      "user_id": 1
+    },
+    {
+      "id": "190c",
+      "auction_id": "1",
+      "bid_amount": 34342,
+      "bid_time": "2024-08-01T00:01:35.118Z",
+      "user_id": 1
+    },
+    {
+      "id": "c616",
+      "auction_id": "1",
+      "bid_amount": 444,
+      "bid_time": "2024-08-01T00:02:08.148Z",
+      "user_id": 1
+    },
+    {
+      "id": "a707",
+      "auction_id": "1",
+      "bid_amount": 4444,
+      "bid_time": "2024-08-01T00:02:52.148Z",
+      "user_id": 1
+    },
+    {
+      "id": "0a07",
+      "auction_id": "1",
+      "bid_amount": 55555,
+      "bid_time": "2024-08-01T00:09:34.703Z",
+      "user_id": 1
+    },
+    {
+      "id": "53cf",
+      "auction_id": "1",
+      "bid_amount": 66666,
+      "bid_time": "2024-08-01T00:17:14.966Z",
+      "user_id": 1
+    },
+    {
+      "id": "5d06",
+      "auction_id": "1",
+      "bid_amount": 77777,
+      "bid_time": "2024-08-01T00:19:33.964Z",
+      "user_id": 1
+    },
+    {
+      "id": "684e",
+      "auction_id": "1",
+      "bid_amount": 77778,
+      "bid_time": "2024-08-01T00:25:38.068Z",
+      "user_id": 1
+    },
+    {
+      "id": "ed4f",
+      "auction_id": "1",
+      "bid_amount": 77779,
+      "bid_time": "2024-08-01T00:26:02.028Z",
+      "user_id": 1
+    },
+    {
+      "id": "821a",
+      "auction_id": "1",
+      "bid_amount": 90000,
+      "bid_time": "2024-08-01T00:27:30.084Z",
+      "user_id": 1
+    },
+    {
+      "id": "6c08",
+      "auction_id": "1",
+      "bid_amount": 90001,
+      "bid_time": "2024-08-01T00:27:59.483Z",
+      "user_id": 1
+    },
+    {
+      "id": "9e36",
+      "auction_id": "1",
+      "bid_amount": 90002,
+      "bid_time": "2024-08-01T00:29:29.435Z",
+      "user_id": 1
+    },
+    {
+      "id": "d8a5",
+      "auction_id": "1",
+      "bid_amount": 90004,
+      "bid_time": "2024-08-01T00:29:37.795Z",
+      "user_id": 1
+    },
+    {
+      "id": "6500",
+      "auction_id": "1",
+      "bid_amount": 90005,
+      "bid_time": "2024-08-01T00:30:08.047Z",
+      "user_id": 1
+    },
+    {
+      "id": "355c",
+      "auction_id": "1",
+      "bid_amount": 90006,
+      "bid_time": "2024-08-01T00:34:40.504Z",
+      "user_id": 1
+    },
+    {
+      "id": "a422",
+      "auction_id": "1",
+      "bid_amount": 90007,
+      "bid_time": "2024-08-01T00:34:53.678Z",
+      "user_id": 1
+    },
+    {
+      "id": "b710",
+      "auction_id": "1",
+      "bid_amount": 90008,
+      "bid_time": "2024-08-01T00:35:23.410Z",
+      "user_id": 1
+    },
+    {
+      "id": "522d",
+      "auction_id": "1",
+      "bid_amount": 90009,
+      "bid_time": "2024-08-01T00:37:12.200Z",
+      "user_id": 1
+    },
+    {
+      "id": "6064",
+      "auction_id": "1",
+      "bid_amount": 900010,
+      "bid_time": "2024-08-01T00:37:53.266Z",
+      "user_id": 1
+    },
+    {
+      "id": "b8e2",
+      "auction_id": "1",
+      "bid_amount": 900011,
+      "bid_time": "2024-08-01T00:38:47.380Z",
+      "user_id": 1
+    },
+    {
+      "id": "efff",
+      "auction_id": "1",
+      "bid_amount": 900012,
+      "bid_time": "2024-08-01T00:39:16.938Z",
+      "user_id": 1
+    },
+    {
+      "id": "6292",
+      "auction_id": "1",
+      "bid_amount": 9000133,
+      "bid_time": "2024-08-01T00:40:09.063Z",
+      "user_id": 1
+    },
+    {
+      "id": "cb7a",
+      "auction_id": "1",
+      "bid_amount": 9000134,
+      "bid_time": "2024-08-01T00:41:20.635Z",
+      "user_id": 1
+    },
+    {
+      "id": "34a7",
+      "auction_id": "1",
+      "bid_amount": 2,
+      "bid_time": "2024-08-01T00:43:28.542Z",
+      "user_id": 1
+    },
+    {
+      "id": "31a3",
+      "auction_id": "1",
+      "bid_amount": 3,
+      "bid_time": "2024-08-01T00:45:03.463Z",
+      "user_id": 1
+    },
+    {
+      "id": "c870",
+      "auction_id": "1",
+      "bid_amount": 4,
+      "bid_time": "2024-08-01T00:45:33.500Z",
+      "user_id": 1
+    },
+    {
+      "id": "c017",
+      "auction_id": "1",
+      "bid_amount": 5,
+      "bid_time": "2024-08-01T00:45:59.043Z",
+      "user_id": 1
+    },
+    {
+      "id": "6047",
+      "auction_id": "1",
+      "bid_amount": 6,
+      "bid_time": "2024-08-01T01:08:53.109Z",
+      "user_id": 1
+    },
+    {
+      "id": "34f0",
+      "auction_id": "1",
+      "bid_amount": 6,
+      "bid_time": "2024-08-01T01:09:33.450Z",
+      "user_id": 1
+    },
+    {
+      "id": "5141",
+      "auction_id": "1",
+      "bid_amount": 6,
+      "bid_time": "2024-08-01T01:09:36.794Z",
+      "user_id": 1
+    },
+    {
+      "id": "e785",
+      "auction_id": "1",
+      "bid_amount": 7,
+      "bid_time": "2024-08-01T01:09:47.799Z",
+      "user_id": 1
+    },
+    {
+      "id": "7e00",
+      "auction_id": "1",
+      "bid_amount": 7,
+      "bid_time": "2024-08-01T01:10:46.801Z",
+      "user_id": 1
+    },
+    {
+      "id": "903b",
+      "auction_id": "1",
+      "bid_amount": 7,
+      "bid_time": "2024-08-01T01:12:38.667Z",
+      "user_id": 1
+    },
+    {
+      "id": "52e1",
+      "auction_id": "1",
+      "bid_amount": 8,
+      "bid_time": "2024-08-01T01:12:42.780Z",
+      "user_id": 1
+    },
+    {
+      "id": "db98",
+      "auction_id": "1",
+      "bid_amount": 9,
+      "bid_time": "2024-08-01T01:23:00.387Z",
+      "user_id": 1
+    },
+    {
+      "id": "4ab9",
+      "auction_id": "1",
+      "bid_amount": 9,
+      "bid_time": "2024-08-01T01:41:06.434Z",
+      "user_id": 1
+    },
+    {
+      "id": "77f2",
+      "auction_id": "2",
+      "bid_amount": 1222223,
+      "bid_time": "2024-08-01T01:41:11.356Z",
+      "user_id": 1
+    },
+    {
+      "id": "bb8b",
+      "auction_id": "2",
+      "bid_amount": 21341234,
+      "bid_time": "2024-08-01T01:43:37.956Z",
+      "user_id": 1
+    },
+    {
+      "id": "692f",
+      "auction_id": "2",
+      "bid_amount": 112412412,
+      "bid_time": "2024-08-01T01:47:38.064Z",
+      "user_id": 1
+    },
+    {
+      "id": "e7b6",
+      "auction_id": "2",
+      "bid_amount": 123124215,
+      "bid_time": "2024-08-01T01:47:43.449Z",
+      "user_id": 1
+    },
+    {
+      "id": "ae38",
+      "auction_id": "2",
+      "bid_amount": 13523523,
+      "bid_time": "2024-08-01T01:48:06.350Z",
+      "user_id": 1
+    },
+    {
+      "id": "9689",
+      "auction_id": "2",
+      "bid_amount": 14634164523,
+      "bid_time": "2024-08-01T01:48:18.118Z",
+      "user_id": 1
+    },
+    {
+      "id": "bec1",
+      "auction_id": "2",
+      "bid_amount": 1235123651326,
+      "bid_time": "2024-08-01T01:48:34.681Z",
+      "user_id": 1
+    },
+    {
+      "id": "500b",
+      "auction_id": "2",
+      "bid_amount": 1236646147437,
+      "bid_time": "2024-08-01T01:48:41.451Z",
+      "user_id": 1
+    },
+    {
+      "id": "49c8",
+      "auction_id": "1",
+      "bid_amount": 11,
+      "bid_time": "2024-08-01T01:49:04.679Z",
       "user_id": 1
     }
   ]

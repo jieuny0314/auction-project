@@ -17,12 +17,12 @@ const AuctionDetail = ({ auction, imageUrl }) => {
     // 서버로부터 'auctionStarted' 이벤트를 받았을 때 처리
     socket.on("auctionStarted", () => {
       alert("Auction has started!");
-      console.log("ss");
     });
 
-    socket.on("priceUpdated", ({ currentPrice, updatedDate }) => {
+    socket.on("priceUpdated", ({ currentPrice, updatedDate, id }) => {
       setCurrentPrice(currentPrice);
       setUpdatedDate(updatedDate);
+      console.log("detail page event");
     });
 
     return () => {
@@ -85,6 +85,7 @@ const AuctionDetail = ({ auction, imageUrl }) => {
           <BidInput
             auctionId={auction.id}
             currentPrice={auction?.current_price}
+            endTime={auction?.end_time}
           />
         </div>
       </div>

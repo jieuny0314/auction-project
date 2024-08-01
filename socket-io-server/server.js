@@ -14,27 +14,26 @@ const io = require("socket.io")(server, {
 
 let currentPrice = 100; // 초기 입찰가 설정
 let updatedDate = new Date().toISOString();
-let id = "";
+let currentId = "";
 
 // cors 미들웨어 적용
 app.use(cors());
 
 // Socket.io 관련 처리는 그대로 유지
 io.on("connection", (socket) => {
-  console.log("클라이언트가 연결되었습니다.");
-
   socket.on("startAuction", () => {
-    console.log("경매가 시작되었습니다.");
     window.alert("dd");
   });
 
   // 클라이언트로부터의 입찰 가격 변경 요청
-  socket.on("bidPriceChange", (newPrice) => {
-    currentPrice = newPrice;
-    updatedDate = new Date().toLocaleString();
-    id =
-      // 변경된 입찰 정보를 모든 클라이언트에게 전송
+  socket.on("bidPriceChange", (newPrice, id) => {
+    try {
+      currentPrice = newPrice;
+      updatedDate = new Date().toLocaleString();
       io.emit("priceUpdated", { currentPrice, updatedDate, id });
+    } catch (error) {
+      console.error("Error emitting priceUpdated:", error);
+    }
   });
 });
 

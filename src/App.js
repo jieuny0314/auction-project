@@ -29,8 +29,6 @@ function App() {
     setIsLoggedIn(true);
   };
 
-  console.log(isLoggedIn);
-
   const handleLogout = () => {
     // 로그아웃 시 localStorage에서 로그인 상태를 제거
     localStorage.removeItem("isLoggedIn");
